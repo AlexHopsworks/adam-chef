@@ -1,8 +1,8 @@
 dependencies: 
   - recipe: adam::install
-    local:
+    global:
       - hadoop_spark::install
   - recipe: adam::default
     global:  
-      - hops::dn
+      - hops::nm
 
